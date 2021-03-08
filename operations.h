@@ -119,3 +119,13 @@ void ok_delete_cb(Widget , XtPointer , XtPointer );
 void discard_delete_button_cb(Widget , XtPointer , XtPointer );
 void undo_delete_button_cb(Widget , XtPointer , XtPointer );
 void cancel_delete_cb(Widget , XtPointer , XtPointer );
+
+ void clear_message_area (void);
+ int count_visible_atoms (void);
+ void set_current_directory (XmString dir);
+ XmString get_current_directory(void);
+ void deactivate_region (void);
+ void canvas_cb(Widget, XtPointer, XtPointer);
+ void update_lengths_dialog(Boolean);
+ void open_file(char *, Boolean);
+
